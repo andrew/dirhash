@@ -1,0 +1,9 @@
+module Dirhash
+  VERSION: String
+
+  class Error < StandardError
+  end
+
+  def self.hash_zip: (String zip_path) -> String
+  def self.manifest: (String zip_path) -> String
+end
